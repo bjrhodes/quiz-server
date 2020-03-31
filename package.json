@@ -1,0 +1,20 @@
+{
+  "name": "quix-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ". .env && node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "express": "^4.16.3",
+    "mongodb": "^3.5.5",
+    "nanoid": "^3.0.1",
+    "peer": "^0.5.1",
+    "ws": "^5.2.1"
+  }
+}
